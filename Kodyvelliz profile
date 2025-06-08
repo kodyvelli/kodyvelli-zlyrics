@@ -1,0 +1,14 @@
+# Initialize git in your folder (if you haven't yet)
+git init
+
+# Add all your files to git
+git add .
+
+# Commit the files with a message
+git commit -m "Initial commit"
+
+# Link your local repo to GitHub (replace USERNAME and REPOSITORY)
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+# Push your code to GitHub main branch
+git push -u origin master
