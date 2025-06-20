@@ -1,0 +1,26 @@
+/lockard-dynasty/
+├── public/
+│   ├── images/                 # Family crest, event photos, etc.
+│   ├── audio/                  # Music files (unreleased tracks, samples)
+│   ├── video/                  # Video snippets, trailers
+│   └── favicon.ico
+├── src/
+│   ├── components/             # All UI components (Hero, Timeline, etc.)
+│   ├── pages/                  # Route-based pages
+│   │   ├── index.tsx           # Home
+│   │   ├── about.tsx
+│   │   ├── music-vault.tsx
+│   │   ├── content-series.tsx
+│   │   ├── community.tsx
+│   │   ├── shop.tsx
+│   │   ├── contact.tsx
+│   │   └── _app.tsx
+│   ├── styles/
+│   │   └── globals.css         # Tailwind and custom styles
+│   └── lib/                    # API helpers, custom hooks, utils
+├── .env.local                  # API keys, secrets (never commit this)
+├── tailwind.config.js
+├── postcss.config.js
+├── next.config.js
+├── package.json
+└── README.md
